@@ -1,0 +1,91 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.calculator {
+  background: #fff;
+  margin: 20px;
+  padding: 20px 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.input-section {
+  margin: 15px 0;
+}
+
+input {
+  padding: 8px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  width: 120px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.grade-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 10px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+#result {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2e7d32;
+  margin: 10px 0;
+}
+
+.share-buttons {
+  margin-top: 10px;
+}
+
+.share-buttons button {
+  background: #28a745;
+  margin: 4px;
+}
+
+.share-buttons button:hover {
+  background: #1e7e34;
+}
+
+.hidden {
+  display: none;
+}
